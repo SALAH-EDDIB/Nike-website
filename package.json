@@ -1,0 +1,23 @@
+{
+  "name": "nike-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/style.css --watch",
+    "compil": "node-sass sass/main.scss css/style.comp.css",
+    "concat": "concat -o css/style.concat.css css/additional.css css/style.comp.css",
+
+    "prefix": "postcss css/style.concat.css --use=autoprefixer --map=false --output=css/style.prefix.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SALAH-EDDIB/Nike-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SALAH-EDDIB/Nike-website/issues"
+  },
+  "homepage": "https://github.com/SALAH-EDDIB/Nike-website#readme"
+}
