@@ -109,7 +109,8 @@ nav {
   background-color: #33184d;
   border-radius: 10px;
   overflow: hidden;
-  margin-bottom: 70px; }
+  margin-bottom: 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.103), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
   .card:hover .img-box {
     top: 5%;
     transform: translateY(0%);
@@ -178,6 +179,8 @@ nav {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; }
+  .cards span {
+    font-size: 22px; }
   .cards .card2::before {
     background-color: #5d5f6a; }
   .cards .card3::before {

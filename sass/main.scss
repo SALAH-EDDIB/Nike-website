@@ -184,6 +184,7 @@ nav {
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.103), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
     &:hover .img-box {
         top: 5%;
@@ -298,6 +299,13 @@ nav {
     justify-content: space-evenly;
     flex-wrap: wrap;
 
+    span {
+
+        font-size: 22px;
+
+
+    }
+
 
     .card2::before {
         background-color: #5d5f6a;
@@ -313,6 +321,7 @@ nav {
 
     .card4::before {
         background-color: #da5167;
+
     }
 
     .card5::before {
