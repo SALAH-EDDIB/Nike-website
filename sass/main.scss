@@ -6,7 +6,7 @@
     box-sizing: border-box;
 
     &::-webkit-scrollbar {
-        width: 10px;
+        width: 5px;
 
 
     }
@@ -50,7 +50,7 @@ body {
 
 
     &::-webkit-scrollbar {
-        width: 10px;
+        width: 5px;
 
 
     }
@@ -385,7 +385,13 @@ body {
         color: rgb(80, 37, 121);
         cursor: pointer;
         opacity: 0;
-        transition: 0.5s;
+        transition: 0.3s ease;
+        outline: none;
+
+        &:hover {
+            background-color: #EB461B;
+            color: white;
+        }
 
 
     }
@@ -475,7 +481,7 @@ body {
         right: 0;
         width: 39%;
         height: 100%;
-        background-color: rgb(80, 37, 121);
+        background-color: #58297e;
         overflow: auto;
         transition: .5s;
         padding: 1.5rem;
@@ -567,6 +573,8 @@ body {
             cursor: pointer;
             transition: 0.3s;
             outline: none;
+
+
 
             &:hover {
                 background-color: rgb(209, 62, 25);

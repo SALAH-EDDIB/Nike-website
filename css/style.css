@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box; }
   *::-webkit-scrollbar {
-    width: 10px; }
+    width: 5px; }
   *::-webkit-scrollbar-track {
     background: #6A328A; }
   *::-webkit-scrollbar-thumb {
@@ -22,7 +22,7 @@ body {
   font-size: 24px;
   margin: 0 auto; }
   body::-webkit-scrollbar {
-    width: 10px; }
+    width: 5px; }
   body::-webkit-scrollbar-track {
     background: #6A328A; }
   body::-webkit-scrollbar-thumb {
@@ -220,7 +220,11 @@ body {
     color: #502579;
     cursor: pointer;
     opacity: 0;
-    transition: 0.5s; }
+    transition: 0.3s ease;
+    outline: none; }
+    .content-box button:hover {
+      background-color: #EB461B;
+      color: white; }
 
 .cards {
   width: 89%;
@@ -268,7 +272,7 @@ body {
     right: 0;
     width: 39%;
     height: 100%;
-    background-color: #502579;
+    background-color: #58297e;
     overflow: auto;
     transition: .5s;
     padding: 1.5rem;
